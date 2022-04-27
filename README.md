@@ -12,6 +12,12 @@ it assumes that there is a `python3` executable in your path with access to the 
 If for any reason the automatic creation of the virtualenv fails, you can create the virtualenv
 manually once the init process completes.
 
+Install cdk tools via npm
+
+```
+npm i -g aws-cdk
+```
+
 To manually create a virtualenv on MacOS and Linux:
 
 ```
@@ -34,7 +40,7 @@ If you are a Windows platform, you would activate the virtualenv like this:
 Once the virtualenv is activated, you can install the required dependencies.
 
 ```
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 At this point you can now synthesize the CloudFormation template for this code.
@@ -51,7 +57,7 @@ $ pytest
 ```
 
 To add additional dependencies, for example other CDK libraries, just add to
-your requirements.txt file and rerun the `pip install -r requirements.txt`
+your requirements.txt file and rerun the `pip3 install -r requirements.txt`
 command.
 
 ## Useful commands
