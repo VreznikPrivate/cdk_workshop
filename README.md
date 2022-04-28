@@ -56,10 +56,6 @@ There is also a very trivial test included that can be run like this:
 $ pytest
 ```
 
-To add additional dependencies, for example other CDK libraries, just add to
-your requirements.txt file and rerun the `pip3 install -r requirements.txt`
-command.
-
 ## Useful commands
 
  * `cdk ls`          list all stacks in the app
