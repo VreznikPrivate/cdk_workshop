@@ -46,13 +46,18 @@ At this point you can now synthesize the CloudFormation template for this code.
 ```
 $ cdk synth
 ```
-
-You can now begin exploring the source code, contained in the hello directory.
-There is also a very trivial test included that can be run like this:
+Bootstrap the enviroment to AWS account
 
 ```
-$ pytest
+$ cdk bootstarp
 ```
+
+Deploy stack to AWS account
+
+```
+$ cdk deploy
+```
+
 
 ## Useful commands
 
