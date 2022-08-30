@@ -11,4 +11,5 @@ class CdkS3WebsiteStack(core.Stack):
             website_index_document= 'index.html',
             website_error_document= 'error.html',
             public_read_access= True,
+            blockPublicAccess= False,
             removal_policy= core.RemovalPolicy.DESTROY)
